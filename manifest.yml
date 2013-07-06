@@ -1,0 +1,15 @@
+---
+applications:
+- name: cowbot
+  memory: 128M
+  instances: 1
+  host: cowbot
+  domain: de.a9sapp.eu
+  command: "bin/hubot -a campfire -n Hubot"
+  path: .
+  services:
+    cowbot-redis:
+      label: redis
+      provider: core
+      version: '2.2'
+      plan: '100'
