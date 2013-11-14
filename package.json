@@ -28,7 +28,8 @@
     "hubot-scripts": ">= 2.4.6",
     "htmlparser":    ">= 1.7.6",
     "soupselect":    ">= 0.2.0",
-    "hubot-talker":  ">= 1.0.7"
+    "hubot-talker":  ">= 1.0.7",
+    "cheerio":       ""
   },
 
   "engines": {
