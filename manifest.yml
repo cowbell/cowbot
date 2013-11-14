@@ -5,7 +5,7 @@ applications:
   instances: 1
   host: cowbot
   domain: de.a9sapp.eu
-  command: "bin/hubot -a campfire -n Hubot"
+  command: "bin/hubot -a talker -n Hubot"
   path: .
   services:
     cowbot-redis:

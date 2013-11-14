@@ -24,10 +24,11 @@
   },
 
   "dependencies": {
-    "hubot":         "2.5.5",
-    "hubot-scripts": "2.4.6",
+    "hubot":         ">= 2.5.5",
+    "hubot-scripts": ">= 2.4.6",
     "htmlparser":    ">= 1.7.6",
-    "soupselect":    ">= 0.2.0"
+    "soupselect":    ">= 0.2.0",
+    "hubot-talker":  ">= 1.0.7"
   },
 
   "engines": {
