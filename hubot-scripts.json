@@ -7,4 +7,6 @@
  "bitcoin.coffee",
  "cowsay.coffee",
  "decide.coffee",
- "ruby.coffee"]
+ "ruby.coffee",
+ "remind.coffee"
+ ]
